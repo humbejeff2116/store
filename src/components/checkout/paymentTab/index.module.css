@@ -1,0 +1,25 @@
+.container {
+    border: 1px solid yellow;
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.paymentOptionButton {
+    border: 1px solid yellow;
+    padding: 6px 8px;
+    border-radius: 28px;
+    margin-right: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isActivePaymentOption {
+    background-color: red;
+}
+
+.icon {
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
+}

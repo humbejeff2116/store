@@ -1,0 +1,251 @@
+.container {
+    /* border: 1px solid red; */
+}
+
+/* user verification styles  */
+
+.userVerificationContainer {
+    border-top: 1px solid var(--prim-border-color);
+    padding: 2rem;
+    background-color: #f8f8f8;
+}
+
+.userVerificationChild {
+    display: grid;
+}
+
+.userVerificationFormWrapper {
+    border-radius: 8px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 1px 5px 5px 1px var(--text-color-opac-1);
+    background-color: var(--background-color);
+}
+
+.veriCodeEmailText {
+    /* border: 1px solid red; */
+    color: var(--text-color-opac-5);
+    margin-bottom: 0.5rem;
+}
+
+.veriCodeEmailText span {
+    color: var(--text-color);
+    /* text-decoration: underline */
+}
+
+.resendWrapper {
+    /* border: 1px solid red; */
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--text-color-opac-5);
+}
+
+.resendWrapper button{
+    padding: 10px 12px;
+    border: 1px solid var(--prim-border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--background-color);
+    color: var(--color);
+    margin-left: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.resendWrapper button:hover{
+    border: 1px solid var(--color);
+}
+
+.userVerificationText {
+    font-size: 0.9rem;
+    color: var(--text-color-opac-5);
+    margin-bottom: 0.5rem;
+}
+
+.usedForText {
+    border-bottom: 1px double var(--color);
+}
+
+.userVerificationFormWrapper form {
+    /* border: 1px solid red; */
+    /* border-radius: 8px; */
+    /* box-shadow: 1px 5px 5px 1px var(--text-color-opac-1); */
+    display: flex;
+    flex-direction: column;
+    /* padding: 2rem; */
+    /* background-color: var(--background-color); */
+    /* width: 65%; */
+    margin: auto;
+    /* background-color: #f8f8f8; */
+}
+
+
+.labelWrapper {
+    /* border: 2px solid green; */
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.2rem;
+}
+
+.input {
+    color: var(--text-color);
+    padding: 14px 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid var(--prim-border-color);
+    /* background-color: #f8f8ff; */
+    /* box-shadow: 0 0 0 30px white inset !important;
+    -webkit-box-shadow: 0 0 0 30px white inset !important; */
+    background-color: #f8f8f8;
+}
+
+.input:focus {
+    outline: 2px solid var(--prim-border-color);
+}
+
+.amountInput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--prim-border-color);
+    border-radius: 0;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+
+}
+
+.inputError {
+    border: 1px solid var(--error-color);
+}
+
+.amountInputError {
+    border-bottom: 2px solid var(--error-color);
+}
+
+.inputContains {
+    border: 1px solid var(--text-color);
+    
+    /* border: 1px solid var(--color); */
+}
+
+.inputErrorReport {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    min-height: 25px;
+    color: var(--error-color);
+    font-size: 0.85rem; 
+}
+
+.inputErrorReport span {
+    margin-left: 0.3rem;
+}
+
+.passwordButtonWrapper {
+    /* margin-top: 1rem; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.passwordButton {
+    width: 100%;
+    padding: 16px 12px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    border: none;
+}
+
+.passwordButton:hover {
+    transform: scale(1.03);
+}
+
+.icon {
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
+}
+
+.walletInfoWrapper {
+    border: 1px solid var(--prim-border-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.walletInfo {
+    border-bottom: 1px solid var(--prim-border-color);
+    padding: 1rem 0;
+    color: var(--text-color);
+}
+
+.walletInfo:last-of-type {
+    border-bottom: none;
+}
+
+.walletInfo span {
+    /* border: 1px solid red; */
+    color: var(--text-color-opac-5);
+    /* font-size: 0.8rem; */
+}
+
+.withdrawMethods {
+    /* border: 1px solid red; */
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.withdrawMethodsText {
+    margin-right: 0.6rem;
+}
+
+.withdrawMethods button{
+    border: 1px solid var(--color);
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.withdrawMethods button:hover {
+    background-color: var(--color);
+    color: var(--background-color);
+}
+
+.buttonIcon {
+    font-size: 1.3rem;
+}
+
+.accountNumberInput {
+
+}
+/* funds modification styles */
+.fundsWrapper {
+    min-height: 40vh;
+}
+
+.funds {
+
+}

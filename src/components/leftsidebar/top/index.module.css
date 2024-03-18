@@ -1,0 +1,58 @@
+
+.container {
+    /* border-top:1px solid var(--prim-border-color); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid yellow;
+}
+
+.avatarContainer {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatarImageWrapper {
+    /* border: 1px solid blue; */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+}
+
+.avatarImageWrapper img {
+    outline: 2px solid red;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.avatarUserName {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.signinLink {
+    margin-top: 0.5rem;
+    /* margin-right: auto; */
+    border: 2px solid yellow;
+    padding: 6px 8px;
+    background-color: var(--color);
+    color: var(--background-color);
+
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}

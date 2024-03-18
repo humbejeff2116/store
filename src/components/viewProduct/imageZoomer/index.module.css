@@ -1,0 +1,13 @@
+.container {
+    border: 1px solid red;
+    height: 100vh;
+    width: 80%; 
+    position: fixed;
+    left: -100%; 
+    transition: all 0.8s ease;
+    background-color: red;
+}
+
+.showChild {
+    left: 0
+}

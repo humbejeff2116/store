@@ -1,0 +1,63 @@
+.container {
+    border: 1px solid yellow;
+}
+
+.filterButton {
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+.menuContainer {
+    border: 1px solid red;
+    position: absolute;
+    /* top: 0.2rem; */
+    right: 0;
+    background-color: black;
+    display: none;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.filterItemButton {
+    border-bottom: 1px solid red;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filterItemButton:last-of-type {
+    border-bottom: none;
+}
+
+.filterItemButton:hover {
+    color: var(--sec-color);
+}
+
+.filterItemButtonActive {
+    color: var(--sec-color);
+}
+
+.filter:last-of-type {
+    border-bottom: none;
+}
+
+.filterIcon {
+    font-size: 1.2rem;
+    margin-right: 0.4rem;
+}
+
+.showMenu {
+    display: flex;
+    flex-direction: column;
+}

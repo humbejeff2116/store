@@ -1,0 +1,16 @@
+.container {
+    border: 1px solid purple;
+}
+
+.wrapper {
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.notificationsWrapper {
+    width: 70%;
+    border: 1px solid yellow;
+    display: grid;
+    gap: 1rem;
+}

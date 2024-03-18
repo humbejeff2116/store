@@ -1,0 +1,12 @@
+.container {
+    border: 1px solid red;
+    min-height: 50vh;
+    position: relative;
+    display: grid;
+}
+
+
+.childWrapper {
+    border: 1px solid green;
+    padding: 1rem;
+}

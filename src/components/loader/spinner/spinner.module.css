@@ -1,0 +1,105 @@
+.child {
+    border: 3px solid red;
+    border-radius: 50%;
+    border-bottom: 3px solid var(--sec-color);
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    -webkit-animation: suspense-spin 0.8s linear infinite;/* index.css*/
+    animation: suspense-spin 0.8s linear infinite;
+}
+
+
+.smallContainer {
+    margin-top: 0.4rem;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.unsetMarginTop {
+    margin-top: 0;
+}
+  
+.smallChild {
+    border: 3px solid red;
+    border-radius: 50%;
+    border-bottom: 3px solid var(--sec-color);
+    width: 22px;
+    height: 22px;
+    margin: auto;
+    -webkit-animation: suspense-spin 0.8s linear infinite;/* index.css*/
+    animation: suspense-spin 0.8s linear infinite;
+}
+
+.smallWithTextContainer {
+    padding: 0.5rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    /* box-shadow: 0 0 4px var(--box-shadow-color); */
+    min-width: 20%;
+    border: 1px solid var(--prim-border-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallWithTextChild {
+    margin-left: 0.4rem;
+    color: var(--text-color-opac-5);
+}
+
+
+/* styles for bottom spinner */
+.bottomWrapperContainer {
+    border: 1px solid var(--prim-border-color);
+    /* border-left: 4px solid var(--text-color-opac-5); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 4rem;
+    right: 2%;
+    padding: 0.8%;
+    /* border-radius: 4px; */
+    min-height: 3.5rem;
+    min-width: 13rem;
+    color: var(--text-color-opac-5);
+    box-shadow: 2px 2px 3px var(--box-shadow-color);
+    background-color: var(--background-color);
+    z-index: 1;
+    right: -100%;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.showBottomLoader {
+    right: 2%;
+    opacity: 1;
+}
+
+.spinnerContainer {
+    /* border: 1px solid red; */
+    margin: 0 0.4rem;
+    position: relative;
+}
+
+.spinner {
+    border: 3px solid var(--prim-border-color);
+    border-radius: 50%;
+    border-bottom: 3px solid var(--color);
+    width: 1.5rem;
+    height: 1.5rem;
+    -webkit-animation: suspense-spin 0.8s linear infinite;
+    animation: suspense-spin 0.8s linear infinite;
+}
+
+@-webkit-keyframes suspense-spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes suspense-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

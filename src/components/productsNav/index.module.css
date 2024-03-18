@@ -1,0 +1,27 @@
+.wrapper {
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.left {
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+
+.right {
+    border: 1px solid blue;
+    padding: 1rem;
+}
+
+.dropDownWrapper {
+    position: relative;
+    border: 3px solid purple;
+}

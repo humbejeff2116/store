@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    position: sticky;
+    top: var(--header-height);
+    padding: 1rem;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.button, .clearButton {
+    border: 1px solid red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.clearButton {
+    padding: 4px 8px;
+    border-radius: 28px;
+}
+
+.icon {
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
+}

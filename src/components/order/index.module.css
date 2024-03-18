@@ -1,0 +1,106 @@
+.container {
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.detailWrapper {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid green;
+}
+
+.detailWrapper:last-of-type {
+    border-bottom: none;
+}
+
+.top {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.status {
+    border: 1px solid blue;
+    padding: 4px 8px;
+    border-radius: 28px;
+    font-size: 0.7rem;
+}
+
+.menu {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+}
+
+.menuIcon {
+    font-size: 1.3rem;
+}
+
+.middle {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.detail {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 0.4rem;
+    border-radius: 8px; */
+}
+
+.detailIcon {
+    margin-right: 0.4rem;
+    font-size: 1rem;
+}
+
+.detail span {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    width: 100%;
+}
+.detail div {
+    border: 1px solid green;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.buttonWrapper {
+    display: flex;
+}
+
+.button {
+    border: 1px solid green;
+    padding: 6px 10px;
+    border-radius: 28px;
+    font-size: 0.8rem;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.buttonIcon {
+    margin-right: 0.4rem;
+}
+
+.viewButton {
+    margin-left: 1rem;
+}
+
+.cancelButton {
+    margin-right: 1rem;
+}
+
+.disableButton {
+
+}

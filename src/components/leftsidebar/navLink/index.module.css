@@ -1,0 +1,81 @@
+
+
+.navItem {
+    border: 1px solid green;
+}
+
+.navLink {
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    transition:all 0.1s ease;
+    color: var(--text-color);
+    padding: 0.7rem;
+    border-radius: 0 28px 28px 0;
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 1px solid red;
+    border-left: 3px solid var(--background-color);
+}
+
+.navLink:hover {
+    background-color: var(--active-link-bg-color);
+    border-left: 3px solid var(--text-color);
+}
+
+ .activeLink {
+    /* color: var(--color); */
+    background-color: var(--active-link-bg-color);
+    border-top: 1px solid var(--color-opac-2);
+    border-bottom: 1px solid var(--color-opac-2);
+    border-left: 3px solid yellow;
+    box-shadow: 1px 5px 5px var(--box-shadow-color);
+    /* font-weight: 550; */
+}
+
+.iconWrapper {
+    border:1px solid red; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    color: var(--text-color-opac-7);
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+
+/* styles for nav item 2 */
+.navItem2 {
+    border: 1px solid green;
+}
+
+.navLink2 {
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    transition:all 0.1s ease;
+    color: var(--text-color);
+    padding: 0.7rem;
+    /* border-radius: 0 28px 28px 0; */
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 1px solid red;
+    border-left: 3px solid var(--background-color);
+}
+
+.navLink2:hover {
+    text-decoration: underline;
+    color: var(--color);
+}
+
+.navItem2 > .activeLink2 {
+    text-decoration: underline;
+    color: var(--color);
+}

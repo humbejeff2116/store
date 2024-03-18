@@ -1,0 +1,52 @@
+.container {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    gap: 1rem;
+    min-height: 100vh;
+    position: relative;
+}
+
+.left {
+    border: 1px solid green;
+}
+
+.leftDetailsWrapper {
+    border: 2px solid red;
+    padding: 1rem;
+}
+
+.leftBottom {
+    padding: 1rem;
+    border: 1px solid purple;
+}
+
+.right {
+    border: 1px solid green;
+    padding: 1rem;
+}
+
+.rightChildWrapper {
+    position: sticky;
+    top: calc(var(--header-height) + 1rem);
+    border: 2px solid yellow;
+}
+
+.tabButtonWrapper {
+    border: 2px solid green;
+    padding: 1rem;
+    border-radius: 8px;
+    position: sticky;
+    bottom: 1rem;
+}
+
+.tabButton {
+    border: 1px solid green;
+    margin-right: 1rem;
+    padding: 6px 8px;
+    border-radius: 28px;
+}
+
+.tabActive {
+    background-color: red;
+}

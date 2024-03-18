@@ -1,0 +1,24 @@
+.container {
+    /* border: 1px solid red; */
+
+    font-weight: bold;
+    font-style:normal;
+    font-variant:normal;
+    font-stretch:normal;
+    font-size:20px;
+    /* font-family:Candara; */
+    font-variant-ligatures:normal;
+    font-variant-caps:normal;
+    font-variant-numeric:normal;
+    font-variant-east-asian:normal;
+    letter-spacing:0.204528px;
+    /* color:var(--sec-color); */
+    fill-opacity:1;
+    stroke:var(--sec-color);
+    stroke-width:0;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-dasharray:none;
+    stroke-opacity:1;
+    text-shadow: 1px 1px var(--sec-color);
+}

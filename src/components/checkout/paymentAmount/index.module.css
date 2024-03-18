@@ -1,0 +1,32 @@
+.container {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+
+.detailWrapper {
+    border-bottom: 1px solid green;
+    padding: 0.4rem 0;
+}
+
+.detailWrapper:last-of-type {
+    border-bottom: none;
+}
+
+.linkWrapper {
+    display: flex;
+}
+
+.link {
+    border: 1px solid red;
+    padding: 6px 8px;
+    border-radius: 28px;
+    display: flex; 
+}
+
+.icon {
+    margin-right: 0.4rem;
+    font-size: 1.3rem;
+}

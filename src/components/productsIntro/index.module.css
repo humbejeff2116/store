@@ -1,0 +1,52 @@
+.container {
+    border: 1px solid red;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+}
+
+.left, .right {
+    border: 2px solid green;
+    padding: 1rem;
+}
+
+.leftComponent, .rightComponent {
+    border: 1px solid blue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.writeup {
+    border: 1px solid green;
+    margin: 1rem 0;
+}
+
+.linkWrapper {
+    border: 1px solid red;
+    display: flex;
+}
+
+.link {
+    border: 4px solid green;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 28px;
+    /* margin-right: auto; */
+}
+
+
+.icon {
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
+}

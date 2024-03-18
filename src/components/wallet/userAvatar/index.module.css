@@ -1,0 +1,51 @@
+.container {
+    border-bottom: 1px solid var(--prim-border-color);
+    padding: 1rem;
+    background-color: #f8f8f8;
+    padding: 2rem;
+}
+
+.child {
+    background-color: #112252;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.avatarWrapper {
+    border: 1px solid green;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #20396C;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.avatarWrapper:hover {
+    border: 2px solid var(--color-opac-4);
+}
+
+.avatarWrapper img{
+    border-radius: 50%; 
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* border: 1px solid var(--color); */
+}
+
+.topRight {
+    border: 1px solid green;
+}
+
+.userName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--background-color);
+}

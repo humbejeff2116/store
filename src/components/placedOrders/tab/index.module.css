@@ -1,0 +1,34 @@
+.container {
+    border: 1px solid red;
+    position: sticky;
+    top: var(--header-height);
+    padding: 1rem;
+    display: flex;
+    background-color: black;
+
+}
+
+.backButton {
+    border: 1px solid yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.button {
+    border: 1px solid red;
+    padding: 4px 8px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.activeTab {
+    background-color: red;
+}

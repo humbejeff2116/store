@@ -1,0 +1,18 @@
+.loadingContainer {
+    /* border: 4px solid red; */
+    min-height: 60vh;
+    
+}
+
+.container {
+    /* border: 4px solid red; */
+    min-height: 50vh;
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.emptyStateWrapper {
+    border-top: 1px solid var(--prim-border-color);
+    border-bottom: 1px solid var(--prim-border-color);
+}

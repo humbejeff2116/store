@@ -1,0 +1,55 @@
+.container {
+    border: 1px solid green;
+}
+
+.orderId {
+    border: 1px solid yellow;
+    margin: 1rem 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.orderIcon {
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
+}
+
+.orderId span {
+    margin-left: 0.4rem;
+}
+
+.stage {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.stage:last-of-type {
+    margin-bottom: 0;
+}
+
+.stageComplete {
+    border: 1px solid red;
+}
+
+
+.stageLeft {
+    border-right: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stageRight {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+
+.button {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    padding: 2px 8px;
+    background-color: var(--sec-color);
+    color: red;
+}
+
+.icon {
+    font-size: 1.1rem;
+}

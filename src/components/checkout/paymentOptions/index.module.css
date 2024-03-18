@@ -1,0 +1,70 @@
+.container {
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+
+.heading {
+    border: 1px solid green;
+    margin-bottom: 1rem;  
+}
+
+.detailWrapper {
+    border: 1px solid green;
+    padding: 0.4rem 0;
+}
+
+.orWrapper {
+    display: flex;
+}
+
+.or {
+    border: 1px solid red;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orIcon {
+    /* border: 1px solid red; */
+   margin-left: 0.4rem;
+   font-size: 1.3rem; 
+}
+
+.buttonWrapper {
+    border: 1px solid blue;
+    padding: 0.4rem 0;
+}
+
+.buttonWrapper button {
+    border: 1px solid blue;
+    padding: 6px 8px;
+    border-radius: 28px;
+    display: flex;
+}
+
+.buttonIcon {
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
+}
+
+
+.acceptedPaymentsWrapper {
+    border: 1px solid yellow;
+    display: flex;
+    padding: 0.4rem 0;
+    margin-bottom: 0.4rem;
+}
+
+.acceptedPayment {
+    border: 1px solid yellow;
+    padding: 2px 8px;
+    border-radius: 28px;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}

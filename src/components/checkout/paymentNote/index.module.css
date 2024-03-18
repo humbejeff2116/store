@@ -1,0 +1,38 @@
+.container {
+    border: 1px solid blue;
+    min-height: 40vh;
+    padding: 1rem;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1rem;
+}
+
+.childWrapper {
+    border: 1px solid blue;
+}
+
+.textWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    border: 1px solid blue;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: clamp(16px, 2vw, 18px);
+    line-height: 1.5;
+    color: var(--text-color);
+
+}
+
+.body {
+    border: 1px solid blue;
+    font-size: clamp(16px, 2vw, 19px);
+    line-height: 1.5;
+    color: var(--text-color-opac-5);
+}

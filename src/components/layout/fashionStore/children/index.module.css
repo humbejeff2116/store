@@ -1,0 +1,19 @@
+.childrenWithFooterWrapper{
+    border:1px solid black;
+    width: 100%;
+}
+
+.childrenContainer{
+    border-left: 1px solid var(--prim-border-color);
+    position: relative;
+    /* margin-left: var(--sidebar-width); */
+    min-height: 100vh;
+    /* padding: 2rem; */
+    border: 1px solid red;
+}
+
+/* .templateCenter{
+    border:1px solid black;
+    min-height: 90vh;
+} */
+

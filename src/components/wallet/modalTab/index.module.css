@@ -1,0 +1,46 @@
+/* styles for tab */
+.container {
+    border-bottom: 1px solid var(--prim-border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+.heading {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.buttonsWrapper {
+    display: flex;
+}
+
+.button {
+    margin-left: 1rem;
+    padding: 4px 8px;
+    border: 1px solid green;
+    border-radius: 28px;
+    color: var(--color);
+    background-color: var(--background-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon {
+    margin-right: 0.4rem;
+    font-size: 1.3rem;
+}
+
+.activeTab {
+    color: var(--background-color);
+    background-color: var(--color);
+    box-shadow: 1px 4px 4px var(--text-color-opac-1);
+}

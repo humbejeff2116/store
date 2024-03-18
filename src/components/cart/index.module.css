@@ -1,0 +1,26 @@
+.container {
+    border: 1px solid red;
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    gap: 1rem;
+    min-height: 100vh;
+    position: relative;
+}
+
+.left {
+    border: 1px solid green;
+}
+
+.cartWrapper {
+   margin: 1rem 0;
+   border: 1px solid red;
+   display: grid;
+   gap: 1rem; 
+}
+
+
+.right {
+    border: 1px solid green;
+    padding: 1rem;
+}

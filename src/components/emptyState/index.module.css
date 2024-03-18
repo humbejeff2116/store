@@ -1,0 +1,93 @@
+
+.emptyContainer{
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    min-height: 70vh;
+    /* width: 60%; */
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 5px 1px var(--text-color-opac-1);
+}
+
+.emptyContentWrapper{
+    /* border: 1px solid yellow; */
+    text-align: center;
+    max-width: 30rem;
+    font-size: 1.3rem;
+}
+
+.emptyImageWrapper{
+    /* border: 1px solid blue; */
+    max-width: 7rem;
+    margin: 0 auto;
+}
+
+.emptyImageWrapper img{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.emptyHeader{
+    /* border: 1px solid black; */
+    color: var(--text-color);
+    margin: 0rem 0 0.4rem 0;
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 24px;
+    font-size: clamp(20px,4vw,24px);
+}
+
+.emptyBody{
+    /* border: 1px solid green; */
+    color: var(--text-color-opac-5);
+    font-size: 1.2rem;
+    max-width: 400px;
+}
+
+/* reload button styles */
+.reloadButtonContainer{
+    border: 1px solid green;
+}
+
+.reloadButtonWrapper{
+ /* border: 1px solid red; */
+    margin-top: 0.8rem;
+}
+
+.reloadButton{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    font-size: 0.9rem;
+    padding: 9px 15px;
+    background-color: var(--color-opac-6);
+    color: var(--background-color);
+    /* line-height: 24px; */
+    cursor: pointer;
+    /* font-weight: 500; */
+    transition: all 0.2s ease;
+    border: none;
+    border: 1px solid red;
+    text-decoration: none;
+}
+
+.reloadButton span{
+    /* border: 1px solid red; */
+}
+
+.reloadButtonIcon{
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
+    vertical-align: middle;
+    border: 1px solid red;
+}
+
+.reloadButton:hover{
+    background-color: var(--color);
+}

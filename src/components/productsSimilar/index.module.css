@@ -1,0 +1,12 @@
+.productsContainer {
+    border: 2px solid yellow;
+    margin-top: 1rem;
+}
+
+.productsWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    border: 1px solid red;
+    /* padding: 1rem; */
+}

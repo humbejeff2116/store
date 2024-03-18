@@ -1,0 +1,17 @@
+.button {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    padding: 6px 8px;
+    margin-left: auto;
+}
+
+.addIcon, .bagIcon {
+    font-size: 1.3rem;
+}
+
+.addIcon {
+    margin-right: 0.4rem;
+}

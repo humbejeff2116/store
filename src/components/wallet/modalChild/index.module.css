@@ -1,0 +1,19 @@
+/* styles for modal */
+
+.container {
+    border: 3px solid green;
+    height: 100vh;
+    width: 60%;
+    left: -100%;
+    transition: all 0.8s ease;
+    position: fixed;
+    left: -100%;
+    /* transform: translate(0%, 20%); */
+    background-color: black;
+    overflow-y: auto;
+    position: relative;
+}
+
+.show {
+    left: 0
+}

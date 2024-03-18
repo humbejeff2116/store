@@ -1,0 +1,99 @@
+
+
+.emailVerificationMessage {
+    /* border: 1px solid red; */
+    color: var(--text-color-opac-5);
+    margin-bottom: 0.5rem;
+}
+
+.emailVerificationMessage span {
+    color: var(--text-color);
+    /* text-decoration: underline */
+}
+
+.passwordConfirmText {
+    font-size: 0.9rem;
+    color: var(--text-color-opac-5);
+    margin-bottom: 0.5rem;
+}
+
+/* .usedForText {
+    border-bottom: 1px double var(--color);
+} */
+
+
+.labelWrapper {
+    border: 2px solid green;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.2rem;
+}
+
+.input {
+    /* color: var(--text-color); */
+    padding: 14px 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: red;
+    /* box-shadow: 0 0 0 30px white inset !important;
+    -webkit-box-shadow: 0 0 0 30px white inset !important; */
+    /* background-color: #f8f8f8; */
+}
+
+.input:focus {
+    outline: 2px solid var(--prim-border-color);
+}
+
+
+.inputError {
+    border: 1px solid var(--error-color);
+}
+
+.inputContains {
+    border: 1px solid var(--text-color);
+    
+    /* border: 1px solid var(--color); */
+}
+
+.inputErrorReport {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    min-height: 25px;
+    color: var(--error-color);
+    font-size: 0.85rem; 
+}
+
+.inputErrorReport span {
+    margin-left: 0.3rem;
+}
+
+
+.resendWrapper {
+    /* border: 1px solid red; */
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--text-color-opac-5);
+}
+
+.resendWrapper button {
+    padding: 10px 12px;
+    border: 1px solid var(--prim-border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    /* background-color: var(--background-color); */
+    color: var(--color);
+    margin-left: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.resendWrapper button:hover{
+    border: 1px solid var(--color);
+}

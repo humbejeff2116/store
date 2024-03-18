@@ -1,0 +1,68 @@
+.container {
+    border: 2px solid blue;
+    /* padding: 2rem; */
+}
+
+
+.headerWrapper {
+    padding: 1rem;
+    border: 1px solid red;
+    /* border-radius: 8px; */
+    box-shadow: 1px 4px 4px 1px var(--text-color-opac-1);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.heading {
+    border: 1px solid red;
+    /* font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingIcon {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonWrapper {
+    border-bottom: 1px solid var(--prim-border-color);
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+
+.buttonWrapper a {
+    padding: 12px 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--text-color);
+    font-weight: bold;
+    box-shadow: 0 1px 1px 0px var(--text-color-opac-7);
+    background-color: var(--light-blue);
+    border: none;
+}
+
+.buttonWrapper a:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    transform: scale(1.025);
+}
+
+.moreIcon {
+    font-size: 1.3rem;
+    margin-left: 0.7rem;
+}

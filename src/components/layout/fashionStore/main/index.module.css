@@ -1,0 +1,15 @@
+.container {
+    border: 1px solid yellow;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+}
+
+.left {
+    border: 1px solid blue;
+}
+
+.right {
+    border: 1px solid blue;
+    position: relative;
+}

@@ -1,0 +1,59 @@
+.container {
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.top {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid green;
+}
+
+.topLeft {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.type, .date {
+    display: flex;
+    align-items: center;
+    padding: 1px 6px;
+    border-radius: 28px;
+    font-size: 0.7rem;
+
+}
+.type {
+    border: 1px solid white;
+    margin-right: 0.4rem;
+}
+
+.date {
+    border: 1px solid white;
+}
+
+.topIcon {
+    margin-right: 0.4rem;
+}
+
+.topRight {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 35px;
+    height: 35px;
+    border-radius: 50%; */
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+.bottom {
+    /* border: 1px solid yellow; */
+    padding: 0.4rem 0;
+}

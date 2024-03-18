@@ -1,0 +1,314 @@
+
+.mainLinksContainer {
+    position: sticky;
+    top: 0;
+    height: var(--mobile-header-height);
+    /* border: 2px solid blue; */
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(2, 1fr); */
+    z-index: 10;
+    padding: 0 2%;
+    background-color: var(--background-color);
+    box-shadow: 0 0 5px var(--box-shadow-color);
+}
+
+.mainLinksChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: var(--mobile-header-height); */
+    /* height: 100%; */
+    /* border: 1px solid green; */
+}
+
+.logo {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-weight: bold;
+    font-style:normal;
+    font-variant:normal;
+    font-stretch:normal;
+    font-size:21.5264px;
+    /* font-family:Candara; */
+    font-variant-ligatures:normal;
+    font-variant-caps:normal;
+    font-variant-numeric:normal;
+    font-variant-east-asian:normal;
+    letter-spacing:0.204528px;
+    color:#242d5f;
+    fill-opacity:1;
+    stroke:#000000;
+    stroke-width:0;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-dasharray:none;
+    stroke-opacity:1;
+}
+
+.logo a {
+    /* border: 2px solid blue; */
+    display: flex;
+    stroke-width:0;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-dasharray:none;
+}
+
+.logo a sup {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-stretch:normal;
+    font-size:8px;
+    font-family:Tahoma;
+    font-variant-ligatures:normal;
+    font-variant-caps:normal;
+    font-variant-numeric:normal;
+    font-variant-east-asian:normal;
+    color:#242d5f;
+    fill-opacity:1;
+    stroke:#000000;
+    stroke-width:0;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-dasharray:none;
+    stroke-opacity:1;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* border: 2px solid green; */
+}
+
+.menuIconWrapper {
+    border: 1px solid var(--prim-border-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 4px;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    margin-left: 1rem;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.menuIcon {
+    font-size: 1.5rem;
+}
+
+.menuOpen {
+    box-shadow: 1px 3px 4px 0 var(--text-color-opac-1);
+    border: none;
+    color: var(--color);
+}
+
+.right {
+    /* border: 1px solid black; */
+    /* min-width: 20%; */
+    justify-content: flex-end;
+}
+
+.searchWrapper {
+    /* border: 1px solid red; */
+    /* margin-right: 1rem; */
+}
+
+.searchWrapper a {
+    border: 1px solid var(--prim-border-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.searchWrapper.searchActive a {
+    box-shadow: 1px 3px 4px 1px var(--text-color-opac-1);
+    border: none;
+    color: var(--color);
+}
+
+.searchIcon {
+    /* margin-right: 1rem; */
+    font-size: 1.5rem;
+    /* border: 1px solid red; */
+}
+
+.loginButtonWrapper {
+
+}
+
+.loginButton {
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    /* background-color: var(--color); */
+    background-color: rgb(36,45,95); 
+    color: var(--background-color);
+    border: none;
+    border-radius: 28px; 
+    font-weight: bold; 
+    transition: all 0.2s ease;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;      
+}
+
+.loginButton:focus {
+    outline: 1px solid var(--prim-border-color);        
+}
+
+.loginButton:hover {
+    background-color: var(--color-opac-8);        
+}
+
+/* styles for nav links */
+.mobileNavLinksContainer {
+    width: 100%;
+    height: calc(100vh - var(--mobile-header-height));
+    background-color: var(--background-color);
+    overflow: auto;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    position: fixed;
+    top: -100%;
+    z-index: 5;
+    left: 0;
+    box-sizing: border-box;
+    margin: 0;
+    box-shadow: 0 0 7px var(--box-shadow-color);
+    overflow-y: auto;
+}
+
+.showMobileNavLinks {
+    top: var(--mobile-header-height);
+}
+
+.navLinkWrapper {
+    border-bottom: 1px solid var(--prim-border-color);
+    padding: 1.2rem 1rem;
+}
+
+.navLinkWrapper:last-of-type {
+    border-bottom: none;
+}
+
+.navLinkWrapperActive {
+    border-radius: 0 0 0 12px;
+    border-bottom: none;
+    box-shadow: 1px 3px 4px 0 var(--text-color-opac-1);
+    font-weight: bold;
+    border-left: 4px solid var(--color);
+}
+
+.navLinkWrapperActive .navLink  {
+    font-weight: bold;
+}
+
+.navLink {   
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    /* border: 2px solid purple; */
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navLink:hover{   
+    color: var(--color);
+}
+
+.navLink:hover .navIcon {   
+    color: var(--color);
+}
+
+.navLinkActive{
+    color: var(--color);
+    /* border-bottom: 2px solid var(--color); */
+}
+
+.navLinkActive .navIcon{
+    color: var(--color);
+}
+
+.navIcon {
+    /* border: 1px solid red; */
+    margin-right: 0.6em;
+    font-size: 1.4em;
+    color: var(--text-color-opac-8);
+    transition: all 0.3s ease;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+
+
+ 
+}
+
+@media only screen and (max-width: 1280px) {
+
+
+ 
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+   .mainLinksContainer {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+ 
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+ 
+}
+
+@media only screen and (max-width: 414px) {
+    
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+
+@media only screen and (max-width: 290px) {
+
+}

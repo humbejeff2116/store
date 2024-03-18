@@ -1,0 +1,30 @@
+.container {
+    border: 1px solid yellow;
+}
+
+.productName {
+    border: 1px solid yellow;
+    font-size: 0.905rem; 
+    font-weight: 500;
+    color: red;
+}
+
+.priceWrapper {
+    border: 1px solid yellow;
+    margin-top: 0.4rem;
+}
+
+.price {
+    border: 1px solid yellow;
+    margin-top: 0.2rem;
+    font-weight: 600;
+    color: var(--color);
+}
+
+.originalPrice {
+    border: 1px solid yellow;
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--sec-color);
+}

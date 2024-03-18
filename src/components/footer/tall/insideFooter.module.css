@@ -1,0 +1,74 @@
+.container{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color-opac-5);
+}
+
+.navContainer{
+    /* border: 1px solid green; */
+    display: flex;
+    padding: 1rem;
+}
+
+.copyright {
+    padding: 0 0.8rem;
+    /* color: var(--text-color); */
+
+}
+
+/* .landingFooterCountrySection{
+    border: 1px solid blue;
+} */
+
+.flagIcon {
+   margin-right: 0.5rem;
+   font-size: 1.2rem;
+}
+
+.bugIcon{
+    margin-right: 0.2rem;
+}
+
+.landingFooterItem{
+    padding: 0 0.8rem;
+    font-size: 0.84rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    border-left: 1px solid var(--prim-border-color);
+}
+
+.landingFooterItem a {
+   text-decoration: none;
+   color: var(--text-color-opac-5);
+   display: inline-flex;
+   align-items: center;
+   /* border: 1px solid red; */
+}
+
+.landingFooterItem a:hover{
+    text-decoration: underline;
+    color: var(--color);
+}
+
+@media only screen and (max-width:500px) {
+
+    .slimFooterContainer{
+        /* border: 3px solid red; */
+        margin: 1%  0;
+    }
+    .landingFooterNav .landingFooterItem:first-of-type{
+        display: none;
+    }
+    .landingFooterCountrySection{
+        /* border: 1px solid blue; */
+        margin-left: auto;
+    }
+    .flagIcon {
+        margin-right: 0.5rem;
+        font-size: 0.84rem;
+    }
+}

@@ -1,0 +1,86 @@
+
+.allProductDetailsItem{
+    border: 1px solid red;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    position: relative;
+    color: var(--text-color); 
+    background-color: var(--background-color);
+    margin-bottom: 1rem; 
+}
+
+.allProductDetailsItem:last-of-type{
+    margin-bottom: 0;
+}
+
+.allProductDetailsheader{
+    border-bottom: 1px solid var(--prim-border-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+    transition: all 0.2s ease-in-out;
+    /* border-radius: 4px; */
+}
+
+.allProductDetailsheader:hover{
+    border-bottom: 1px solid var(--color);
+    color: var(--color);
+}
+
+.detailsOpen{
+    border-bottom: 1px solid var(--background-color); 
+    color: var(--color);
+    /* border-radius: 4px 4px 0 0;    */
+}
+
+.detailsOpen:hover{
+    border-bottom: 1px solid var(--background-color);    
+}
+
+.allProductDetailsHeaderText{
+    /* border: 1px solid green; */
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.allProductDetailsHeaderIconWrapper{
+    /* border: 1px solid var(--prim-border-color); */
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.showMoreIcon{
+    font-size: 1.4rem;
+}
+
+.allProductDetailsBody{
+    /* padding: 0 1rem; */
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    height: 0;
+}
+
+.showMoreText{
+    height: 15rem;
+    padding: 1rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    /* border: 1px solid var(--box-shadow-color); */
+    box-shadow: inset 0 0 6px var(--box-shadow-color);
+    line-height: 1.6;
+    display: grid;
+    row-gap: 1rem;
+    border-radius: 4px;
+}
+
+.showMoreText::-webkit-scrollbar{
+    width: 0.25rem;
+}

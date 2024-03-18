@@ -1,0 +1,97 @@
+
+
+.linksWrapper {
+    border: 5px solid yellow;
+    position: absolute;
+    top: 0.2rem;
+    height: 50vh;
+    width: 100%;
+    overflow-y: auto;
+    gap: 0.5rem;
+    grid-template-rows: auto 1fr;
+    background-color: black;
+    display: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.showDropDown {
+    display: grid;
+}
+
+.top {
+    background-color: purple;
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%; 
+    border-bottom: white; 
+    padding: 0.8rem;
+}
+
+.top span {
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding: 0 0.6rem;
+}
+
+.top span:last-of-type {
+    border-right: none;
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+
+.links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 1rem; */
+    /* padding: 1rem; */
+    background-color: green;  
+}
+
+.linksSegment {
+    border-right: 1px solid red;
+    padding: 1rem;
+}
+
+.linksSegment:last-of-type {
+    border-right: none;
+}
+
+.buttonWrapper {
+    /* background-color: green; */
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.buttonWrapper:last-of-type {
+    margin-bottom: 0;
+}
+
+.buttonWrapper button {
+    padding: 1rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 8px;
+    /* margin: 0.5rem; */
+}
+
+.buttonWrapper button:hover {
+    border: 1px solid red;
+}
+
+.buttonIcon {
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
+}

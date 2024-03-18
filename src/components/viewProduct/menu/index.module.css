@@ -1,0 +1,83 @@
+.container {
+    border: 1px solid green;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    position: sticky;
+    top: var(--header-height);
+    background: black;
+    z-index: 2;
+}
+
+.buttonsWrapper {
+    border: 1px solid blue;
+    /* padding: 1rem; */
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.backButtonWrapper {
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.backButton {
+    border: 1px solid blue;
+}
+
+.quantityButtonsWrapper {
+    border-left: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.quantityButton, .backButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+
+.quantityInput {
+    min-width: 40px;
+    height: 40px;
+    margin: 0 1rem;
+    background-color: red;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid white;
+    /* border-radius: 4px; */
+    padding: 0 0.4rem;
+    transition: all 0.3s ease;
+    caret-color: var(--sec-color);
+}
+
+.quantityInput:focus {
+    border-bottom: 2px solid blue;
+}
+
+.addToCartButton {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    padding: 0 8px;
+    height: 40px;
+    margin-left: 1rem;
+}
+
+/* .right {
+    justify-content: center;
+    border: 2px solid red;
+} */
+

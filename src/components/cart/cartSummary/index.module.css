@@ -1,0 +1,48 @@
+.cartSummary {
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 1rem;
+    position: sticky;
+    top: calc(var(--header-height) + 1rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.detailWrapper {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid green;
+}
+
+.detailWrapper:last-of-type {
+    border-bottom: none;
+}
+
+.detailWrapper span {
+    color: var(--sec-color);
+    font-size: 0.8rem;
+}
+
+.checkoutLink {
+    border: 1px solid green;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding: 6px 8px;
+}
+
+.icon {
+    margin-right: 0.4rem;
+    font-size: 1.3rem;
+}
+
+
+.emptySummarryWrapper {
+    border: 1px solid green;
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

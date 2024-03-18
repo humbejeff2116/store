@@ -1,0 +1,97 @@
+.container {
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.childWrapper {
+    border-bottom: 1px solid green;
+    padding: 1rem 0;  
+}
+
+.childWrapper:last-of-type {
+    border-bottom: none;
+}
+
+.heading {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingIcon {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-bottom: 0.4rem;    
+}
+
+.amountWrapper {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amountWrapper span, .amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-right: 0.5rem;
+}
+
+.amount {
+    border-bottom: 4px solid var(--sec-color);
+}
+
+.buttonsWrapper {
+    border: 1px solid red;
+    /* border-top: 1px solid var(--prim-border-color);
+    border-bottom: 1px solid var(--prim-border-color); */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.buttonWrapper {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonWrapper button {
+    border: 1px solid var(--sec-color);
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: var(--background-color);
+    color: var(--color);
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonIcon {
+    margin-bottom: 0.4rem;
+}
+
+/* .buttonsWrapper button:last-of-type {
+    border: 1px solid var(--color);
+    background-color: var(--color);
+    color: var(--background-color);
+} */
+

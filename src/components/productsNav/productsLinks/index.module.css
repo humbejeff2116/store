@@ -1,0 +1,53 @@
+.container {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    position: relative;
+}
+
+.left, .right {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.left form {
+    border: 1px solid yellow;
+}
+
+.input {
+    background-color: red;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.inputError {
+
+}
+
+.inputContains {
+
+}
+
+
+.right {
+
+}
+
+
+.icon {
+    font-size: 1.2rem;
+    border: 1px solid red;
+    margin-right: 0.4rem;
+}
+.subLink {
+    border: 1px solid blue;
+    margin-right: 1rem;
+    display: flex;
+    padding: 4px 8px;
+    border-radius: 28px;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+
+.container {
+    border: 3px solid blue;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.childWrapper {
+    border: 1px solid red;
+    padding: 1rem 0;
+}
+
+.heartWrapper {
+    border: 1px solid yellow;   
+}
+
+.heartButton {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 28px; */
+    background-color: var(--sec-color);
+    color: red;
+    padding: 1rem;
+}
+
+.heartIcon {
+    font-size: 1.5rem;
+}
+
+.likes {
+    margin-top: 0.2rem;
+    border: 1px solid red;
+    color: red;
+}
+
+
+.name {
+    border: 1px solid red;
+    /* font-size: 1.15rem; */
+}
+
+.code {
+    border: 1px solid red;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-color-opac-5);
+}
+
+.code span {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgb(255, 84, 84);
+}
+
+.priceWrapper {
+    border: 1px solid red;
+    /* font-size: 1.15rem; */
+    color: var(--color);
+}
+
+
+.discount {
+
+}
+
+.numSold {
+
+}
+
+.discount span, .numSold span {
+    color: var(--sec-color);
+}

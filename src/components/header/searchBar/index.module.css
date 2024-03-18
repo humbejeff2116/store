@@ -1,0 +1,16 @@
+.container {
+    border: 2px solid green;
+    position: absolute;
+    top: var(--header-height);
+    min-height: 10vh;
+    width: 100%;
+    /* right: -150%; */
+    transition: all 0.8s ease;
+    background-color: bisque;
+    display: none;
+}
+
+.show {
+    /* right: 0; */
+    display: flex;
+}
